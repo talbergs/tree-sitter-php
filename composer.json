@@ -1,0 +1,21 @@
+{
+  "name": "talbergs/tree-sitter-php",
+  "keywords": [
+    "ffi",
+    "libtree-sitter",
+    "tree-sitter",
+    "php",
+    "tree-sitter-php"
+  ],
+  "version": "0.19.0-rc2",
+  "license": "BSD-3-Clause",
+  "autoload": {
+    "files": [
+      "grammar.php"
+    ]
+  },
+  "require": {
+    "php": ">=8.0.0",
+    "ext-ffi": "*"
+  }
+}
